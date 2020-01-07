@@ -17,10 +17,6 @@ import { Redirect } from 'react-router';
 
 export default function MenuSlider() {
 
-    /*
-    * using redirect to move between pages
-    *
-    */
     const [state, setState] = React.useState({
         left: false,
         redirectReport: false,
